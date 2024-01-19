@@ -17,6 +17,8 @@ function check(){
         document.querySelector('.data').innerHTML = setData;
     })
     .catch(error => console.log(error))
+
+    userAddress = ""
 }
 
 
